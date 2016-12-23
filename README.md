@@ -10,7 +10,7 @@
 - 订单日期：createDay
 - 订单号：id
 - 相关费用：bpostFees
-  - 含邮费：\u542b\u8fd0\u8d39
+   - 含邮费：\u542b\u8fd0\u8d39
 - 商铺名称：shopName
 
 二、 订单明细
@@ -22,9 +22,13 @@
 
 
 感谢以下的一些科普文章/网站工具等，排名不分先后
+
 1. [正则表达式30分钟入门](http://deerchao.net/tutorials/regex/regex.htm)
+
 2. [runoob - 正则表达式教程](http://www.runoob.com/regexp/regexp-tutorial.html)
+
 3. [python 2.7 Doc - re Module](https://docs.python.org/2.7/library/re.html?highlight=re#search-vs-match)
-4. [伯乐在线：Python爬虫实战（5）：模拟登录淘宝并获取所有订单](http://python.jobbole.com/81361/) 
+
+4. [伯乐在线 - Python爬虫实战（5）：模拟登录淘宝并获取所有订单](http://python.jobbole.com/81361/) 
 
 特别感谢1和4的两位作者，4是启发我用正则表达式去获取订单记录的源头，虽然这位作者的代码已经不适用，但是还是很感谢他。1则是一个非常完整通俗易懂的正则表达式入门的文档，基本上我就是在完整阅读了文档之后（真的大约是30分钟的样子），然后自己动手慢慢写慢慢验证，这位作者还提供了一个.NET的正则表达式测试工具，正是这个工具以及runoob网站的工具帮我完整地写出了我所需要的正则。
